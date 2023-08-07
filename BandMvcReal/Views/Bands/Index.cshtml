@@ -1,0 +1,23 @@
+﻿@model BandMvcReal.Models.Band[]
+<!Doctype Html>
+<html>
+<head>
+    <title>Band List</title>
+    <meta charset="utf-8" />
+
+</head>
+<body>
+    <h1>Bands</h1>
+    @foreach (var band in Model)
+    {
+        <ul>
+            <li><a href=$"Details/{@band.Id}">@band.Name</a></li>
+        </ul>
+
+
+    }
+
+
+
+</body>
+</html>
