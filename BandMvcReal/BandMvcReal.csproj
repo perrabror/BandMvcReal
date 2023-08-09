@@ -7,7 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Views\Pictures\" />
+    <None Include="wwwroot\Pictures\Beatles.jpg" />
+    <None Include="wwwroot\Pictures\LedZeppelin.jpg" />
+    <None Include="wwwroot\Pictures\PinkFloyd.jpg" />
+    <None Include="wwwroot\Pictures\Therollingstones.jpg" />
+    <None Include="wwwroot\Pictures\TheWho.png" />
   </ItemGroup>
 
 </Project>
